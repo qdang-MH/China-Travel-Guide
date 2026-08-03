@@ -1,21 +1,19 @@
-# China in Autumn — Version 10 Clean Restart
+# China in Autumn — Version 10 Milestone 2
 
-This package was created from an empty folder.
+Built only on the clean-restart site.
 
-It contains only:
-- Homepage
-- 10-day Trip 1 overview
-- Shanghai chapter
-- Hangzhou chapter
-- Wuzhen chapter
-- Huangshan chapter
-- Hongcun chapter
-- One shared stylesheet
-- Six local cover images
+Added:
+- Five detailed destination chapters
+- Real Wikimedia Commons photography
+- Attraction-specific galleries
+- Daily-flow sections
+- Hotel-planning panels
+- Regional food sections
+- Autumn notes
+- More complete Trip 1 navigation
 
-No legacy Zhangjiajie, Fenghuang, Chengdu, old hotel, restaurant, food,
-transport, wallet, or Version 8/9 pages are included.
+No legacy Zhangjiajie, Fenghuang, Chengdu, old restaurant, old hotel,
+wallet, Version 8, or Version 9 pages are included.
 
-Important installation:
-Delete all existing repository contents first, except the `.git` folder,
-then copy the contents of this package into the repository.
+The real photographs are externally hosted by Wikimedia Commons and each
+gallery image links to its source and license page.

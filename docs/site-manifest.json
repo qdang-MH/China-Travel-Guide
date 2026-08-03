@@ -1,5 +1,6 @@
 {
-  "edition": "Version 10 Clean Restart",
+  "edition": "Version 10 Milestone 2",
+  "base": "Clean restart only",
   "pages": [
     "index.html",
     "trips/trip1/index.html",
@@ -9,5 +10,9 @@
     "destinations/huangshan.html",
     "destinations/hongcun.html"
   ],
-  "legacy_pages_included": []
+  "features": {
+    "real_photo_galleries": 5,
+    "detailed_destination_pages": 5,
+    "legacy_pages": 0
+  }
 }
