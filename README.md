@@ -1,24 +1,25 @@
 # China Luxury Travel Companion
-## Version 8 — Production Release
+## Version 8.1 — Integrated Destination Chapters
 
-This is a complete full-site snapshot preserving the existing repository structure.
+This full-site snapshot keeps the Version 8 structure and improves each
+destination chapter.
 
-### New in Version 8
-- Redesigned production homepage
-- Global navigation for Trip, Hotels, Restaurants, Food, Transport, Budget, Toolkit, and Downloads
-- Fourteen Daily Briefing cards
-- Editable per-person and group budget dashboard
-- Shopping guide
-- Travel toolkit and useful Chinese phrase cards
-- Five printable offline city wallets
-- Local QR codes for selected hotel map locations
-- Existing attraction, hotel, restaurant, food, train-station, and Travel Buddy content
-- Verification report: `docs/verification-v8.json`
+### Added to every destination chapter
+- Food photos directly inside the “What to Try” section
+- Dish descriptions
+- Price ranges
+- Spice guidance
+- Direct links to hotel details
+- Direct links to restaurant names and directions
+- Direct links to the full food guide
+- Direct links to transportation
+- Direct links to maps and directions
+
+### Also added
+- Destination chapter shortcuts on the Trip 1 overview
+- Direct anchors in the Hotel, Restaurant, and Directions collections
+- Verification report: `docs/verification-v8.1.json`
 
 ### Installation
-Copy all contents into the local GitHub Desktop repository, replace matching
-files, commit to main, and push origin.
-
-### Notes
-Budget amounts are planning placeholders and can be edited in the browser.
-Map QR codes open Google Maps searches; keep Amap installed for local navigation.
+Copy all extracted contents into the local GitHub Desktop repository,
+replace matching files, commit, and push.

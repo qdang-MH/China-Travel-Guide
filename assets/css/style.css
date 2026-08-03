@@ -914,3 +914,104 @@ a{color:inherit}
 @media(max-width:900px){.v8-dashboard,.shopping-grid,.download-grid{grid-template-columns:repeat(2,1fr)}.budget-layout{grid-template-columns:1fr}.budget-total-card{position:static}.daily-brief-stats{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:680px){.v8-dashboard,.shopping-grid,.download-grid,.phrase-grid,.daily-brief-stats{grid-template-columns:1fr}.daily-brief-card{grid-template-columns:1fr}.budget-row{grid-template-columns:1fr}}
 @media print{.site-header,.footer,.nav-links,.button{display:none!important}.wallet-page{padding:0;background:white}.wallet-card{box-shadow:none;border:1px solid #ccc}}
+
+/* =========================================================
+   VERSION 8.1 INTEGRATED DESTINATION CHAPTERS
+   ========================================================= */
+
+.chapter-links-section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: var(--cream);
+}
+
+.chapter-action-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    margin-top: 28px;
+}
+
+.chapter-action-grid a {
+    display: block;
+    padding: 22px;
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 10px 28px rgba(45, 30, 20, 0.07);
+    text-decoration: none;
+}
+
+.chapter-action-grid span,
+.chapter-action-grid strong {
+    display: block;
+}
+
+.chapter-action-grid span {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.chapter-action-grid strong {
+    margin-top: 6px;
+    color: var(--red-dark);
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+}
+
+.chapter-food-section {
+    background: #fffaf2;
+}
+
+.chapter-food-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-top: 34px;
+}
+
+.chapter-food-card {
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: white;
+    box-shadow: var(--shadow);
+}
+
+.chapter-food-card img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.chapter-food-copy {
+    padding: 24px;
+}
+
+.chapter-food-copy h3 {
+    margin: 0 0 8px;
+    color: var(--red-dark);
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 980px) {
+    .chapter-action-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 720px) {
+    .chapter-action-grid,
+    .chapter-food-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .chapter-food-card img {
+        height: 250px;
+    }
+}
