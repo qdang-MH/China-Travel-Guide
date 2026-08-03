@@ -1,24 +1,21 @@
 # China — The Four Seasons Collection
-## Version 6 — Verified Links & Directions
+## Version 7 — Travel Buddy
 
-This is a complete full-site snapshot preserving the existing repository structure.
+This is a complete full-site snapshot.
 
-### Included
-- Official links for all selected hotels
-- Google Maps hotel and attraction searches
-- Directions from each selected hotel to planned attractions and stations
-- Amap links for use in China
-- Central link directory: `docs/links-directions.html`
-- Updated destination pages with map and direction buttons
-- Existing hotel, food, attraction, transportation, and photo content
-- Verification page: `docs/verification.html`
-- Machine-readable report: `docs/verification-report.json`
+### Additions
+- Day-by-day Travel Buddy navigation
+- Amap-first attraction links for use in China
+- Google Maps searches and directions as a secondary option
+- Directions from the previous stop
+- Return-to-hotel buttons
+- Named working restaurant options
+- Restaurant directions from each selected hotel
+- Central restaurant directory: `docs/restaurants-directions.html`
+- Verify-before-travel labels for restaurants and branches
+- Version 7 verification report: `docs/verification-v7.json`
 
-### Installation
-Replace the contents of your local GitHub Desktop repository with the
-contents of this folder, then commit and push.
-
-### Navigation note
-Google Maps routing in mainland China may be imperfect. Amap links are
-provided as an additional local option. Always verify entrances, pickup
-points, and current operating conditions during the trip.
+### Important
+Restaurant names, branches, hours, and availability can change. Recheck all
+restaurant details shortly before the trip. Google Maps routing in mainland
+China may be imperfect; Amap is presented first for local navigation.
