@@ -1,0 +1,17 @@
+{
+  "edition": "Version 10 Milestone 3",
+  "base": "Clean restart only",
+  "destinations": [
+    "Shanghai",
+    "Hangzhou",
+    "Wuzhen",
+    "Huangshan",
+    "Hongcun"
+  ],
+  "features": {
+    "hotel_profiles": 5,
+    "restaurant_cards": 15,
+    "route_stops": 20,
+    "legacy_pages": 0
+  }
+}
