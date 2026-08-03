@@ -1,26 +1,23 @@
 # China Luxury Travel Companion
-## Version 9.2 — Exact Food Gallery & Autumn Showcase
+## Version 9.3 — Distinct Restaurant Photos
 
-This full-site snapshot fixes two issues:
+This full-site snapshot fixes the repeated generic photographs in the
+Restaurant section.
 
-### Food Guide fix
-- The central `docs/food.html` page now begins with four visibly different
-  Shanghai dish photographs.
-- Each image uses a different local filename.
-- Filenames are displayed on the page for easy verification.
-- Image URLs include a cache-busting `?v=92` suffix.
-- The Shanghai showcase uses the same distinct local files.
+### What changed
+- Restaurant cards now point to individually named local image files
+- Shanghai restaurant cards use different featured dishes
+- Travel Buddy restaurant cards use local restaurant image assignments
+- Shanghai Showcase restaurant profiles now include food images
+- Restaurant image filenames are displayed under the cards for verification
+- Cache-busting `?v=93` references are included
+- Verification report: `docs/verification-v9.3.json`
 
-### Autumn showcase
-- A prominent November/autumn section appears on the homepage.
-- The Trip 1 overview also includes the autumn section.
-- Three local autumn-inspired images cover Huangshan, Zhangjiajie, and Chengdu.
-- The guide clearly notes that exact foliage timing varies each year.
-
-### Verification
-See `docs/verification-v9.2.json`.
+### Important
+Some restaurant images are representative photographs of the restaurant's
+recommended dish rather than photographs taken at that exact restaurant.
 
 ### Installation
 Replace the full contents of the local GitHub repository, commit, and push.
-After GitHub Pages rebuilds, use Ctrl + F5. Confirm the green banner at the
-top of the Food Guide says “Version 9.2 food-photo update.”
+After GitHub Pages rebuilds, use Ctrl + F5 and confirm the Restaurant page
+shows the “Version 9.3 restaurant-photo update” banner.

@@ -1670,3 +1670,32 @@ a{color:inherit}
         flex-direction: column;
     }
 }
+
+/* =========================================================
+   VERSION 9.3 DISTINCT RESTAURANT PHOTOS
+   ========================================================= */
+
+.restaurant-image-filename {
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 5px 8px;
+    border-radius: 7px;
+    background: var(--cream);
+    color: var(--muted);
+    font-size: 0.66rem;
+}
+
+.v93-showcase-restaurant-photo {
+    display: block;
+    width: calc(100% + 52px);
+    height: 220px;
+    margin: 14px -26px 18px;
+    object-fit: cover;
+}
+
+.restaurant-directory-card .restaurant-food-photo img,
+.buddy-restaurant .buddy-food-photo img,
+.buddy-restaurant .restaurant-food-photo img {
+    height: 230px;
+    object-fit: cover;
+}
