@@ -1,0 +1,14 @@
+{
+  "food_guide_exact_cards": 4,
+  "distinct_food_files_present": 4,
+  "distinct_food_hashes": {
+    "xiaolongbao-shanghai.jpg": "4aca1a5e8a8fd848638fced800d8468763515e50a9b156482c1ec51dd099dc46",
+    "shengjian-bao.jpg": "7cc532d46bed0b4dad765bc26b8fe7ad8f4a6143e0cd8913fa69c0a4e589e30c",
+    "scallion-oil-noodles.jpg": "3922e828c42846a358476cf1ed11202774945c565c08d20ad86eb30bd62d6af2",
+    "red-braised-pork.jpg": "76bacd13e7951893866801bd2ead3ad060505803a0ba71dd287bb6591ce8837c"
+  },
+  "autumn_art_files": 3,
+  "homepage_autumn_cards": 3,
+  "trip_autumn_cards": 3,
+  "cache_busted_food_refs": 8
+}

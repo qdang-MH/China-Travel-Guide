@@ -1,25 +1,26 @@
 # China Luxury Travel Companion
-## Version 9.1 — Distinct Shanghai Food Photos
+## Version 9.2 — Exact Food Gallery & Autumn Showcase
 
-This full-site snapshot fixes the repeated-image issue in the Shanghai
-Food Atlas.
+This full-site snapshot fixes two issues:
 
-### Shanghai dishes now have separate local photos
-- Xiaolongbao
-- Shengjian Bao
-- Scallion-Oil Noodles
-- Red-Braised Pork
+### Food Guide fix
+- The central `docs/food.html` page now begins with four visibly different
+  Shanghai dish photographs.
+- Each image uses a different local filename.
+- Filenames are displayed on the page for easy verification.
+- Image URLs include a cache-busting `?v=92` suffix.
+- The Shanghai showcase uses the same distinct local files.
 
-### Reliability
-All four photographs are stored inside `assets/images/food/`, so GitHub
-Pages serves them directly rather than relying on external hotlinks.
+### Autumn showcase
+- A prominent November/autumn section appears on the homepage.
+- The Trip 1 overview also includes the autumn section.
+- Three local autumn-inspired images cover Huangshan, Zhangjiajie, and Chengdu.
+- The guide clearly notes that exact foliage timing varies each year.
 
-### Attribution
-- Individual source links appear on each dish card
-- Full credits page: `docs/shanghai-food-photo-credits.html`
-- Verification report: `docs/verification-v9.1.json`
+### Verification
+See `docs/verification-v9.2.json`.
 
 ### Installation
-Copy all extracted contents into the local GitHub Desktop repository,
-replace matching files, commit, and push. Then refresh the live website
-with Ctrl + F5.
+Replace the full contents of the local GitHub repository, commit, and push.
+After GitHub Pages rebuilds, use Ctrl + F5. Confirm the green banner at the
+top of the Food Guide says “Version 9.2 food-photo update.”
