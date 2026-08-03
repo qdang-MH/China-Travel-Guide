@@ -831,3 +831,59 @@ a{color:inherit}
 .buddy-restaurant h3,.restaurant-directory-card h3{margin:5px 0 8px;color:var(--red-dark);font-family:Georgia,serif;font-size:1.35rem}
 .verify-pill{display:inline-block;padding:5px 9px;border-radius:999px;background:#f5e6c9;color:#825c20;font-size:.7rem;font-weight:bold;text-transform:uppercase;letter-spacing:.05em}
 @media(max-width:760px){.buddy-restaurant-grid,.restaurant-directory-grid{grid-template-columns:1fr}.buddy-stop{grid-template-columns:1fr}.buddy-number{margin-bottom:4px}}
+
+/* =========================================================
+   VERSION 7.1 FOOD PHOTOGRAPHY
+   ========================================================= */
+
+.restaurant-food-photo,
+.buddy-food-photo {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 14px 0 16px;
+    border-radius: 13px;
+    background: var(--cream);
+    text-decoration: none;
+}
+
+.restaurant-food-photo img,
+.buddy-food-photo img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+}
+
+.restaurant-food-photo span,
+.buddy-food-photo span {
+    position: absolute;
+    right: 9px;
+    bottom: 9px;
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: rgba(30, 15, 18, 0.78);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.restaurant-food-photo:hover img,
+.buddy-food-photo:hover img {
+    transform: scale(1.035);
+}
+
+.restaurant-directory-card,
+.buddy-restaurant {
+    overflow: hidden;
+}
+
+@media (max-width: 720px) {
+    .restaurant-food-photo img,
+    .buddy-food-photo img {
+        height: 250px;
+    }
+}

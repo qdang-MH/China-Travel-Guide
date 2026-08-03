@@ -1,0 +1,65 @@
+{
+  "version": "7.1",
+  "note": "Representative dish photography used on restaurant and Travel Buddy cards.",
+  "images": {
+    "xiaolongbao": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaolongbao.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/Category:Xiaolongbao",
+      "alt": "Xiaolongbao soup dumplings"
+    },
+    "shengjian": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-03%20Sheng%20Jian%20Bao%20-%20Shanghai%20Pan-Fried%20Pork%20Buns.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/File:2022-09-03_Sheng_Jian_Bao_-_Shanghai_Pan-Fried_Pork_Buns.jpg",
+      "alt": "Shanghai pan-fried pork buns"
+    },
+    "noodles": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Scallion%20oil%20noodles.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/Category:Chinese_noodles",
+      "alt": "Chinese noodles"
+    },
+    "bamboo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo%20shoots.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/Category:Bamboo_shoots_as_food",
+      "alt": "Bamboo shoots"
+    },
+    "hunan": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hunan%20cuisine.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/Category:Hunan_cuisine",
+      "alt": "Hunan-style shared dishes"
+    },
+    "mapo": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Authentic%20Mapo%20Tofu.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/File:Authentic_Mapo_Tofu.jpg",
+      "alt": "Mapo tofu"
+    },
+    "hotpot": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chengdu%20Hot%20Pot%20Yuanyangguo%20style%202019.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/File:Chengdu_Hot_Pot_Yuanyangguo_style_2019.jpg",
+      "alt": "Chengdu divided-broth hotpot"
+    },
+    "dandan": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dandan%20noodles.jpg?width=1000",
+      "source": "https://commons.wikimedia.org/wiki/Category:Dandan_noodles",
+      "alt": "Dan dan noodles"
+    }
+  },
+  "restaurant_image_map": {
+    "Nanxiang Mantou Dian (Yu Garden)": "xiaolongbao",
+    "Jia Jia Tang Bao": "xiaolongbao",
+    "Lai Lai Xiaolong": "xiaolongbao",
+    "Din Tai Fung (IAPM)": "xiaolongbao",
+    "Banyan Tree Huangshan Restaurant": "bamboo",
+    "Hongcun Village Local Restaurant": "bamboo",
+    "Xihai Hotel Restaurant": "bamboo",
+    "Mr. Lee's Restaurant (Wulingyuan)": "hunan",
+    "Tang Shi Fu Tu Jia Shi Fu": "hunan",
+    "Hilton Garden Inn Restaurant": "hunan",
+    "WanMu Zhai": "hunan",
+    "Miss Yang Restaurant": "hunan",
+    "Soul Cafe (Hui Long Ge)": "noodles",
+    "Chen Mapo Tofu (Qinghua Road)": "mapo",
+    "Da Miao Hot Pot": "hotpot",
+    "Ming Ting Fan Dian": "dandan",
+    "Niccolo Chengdu Dining": "hotpot"
+  }
+}
