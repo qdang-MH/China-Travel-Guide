@@ -1,20 +1,21 @@
-# China in Autumn — Version 10 Milestone 3
+# China in Autumn — Version 10 Milestone 4 Complete Edition
 
-Built only on the clean Version 10 restart.
+Built only on the clean restart.
 
-Added:
-- Hotel profiles for all five original destinations
-- Official hotel links and map searches
+Included:
+- Original 10-day route
+- 5 detailed destination chapters
+- Daily plans and route guidance
+- Hotel profiles and official/map links
 - Restaurant and eatery recommendations
-- Typical dining prices
-- Amap and Google Maps links
-- Directions from each selected hotel
-- One-tap daily route stops
-- Transportation strategy panels
-- Trip overview practical dashboard
+- Coffee and tea stops
+- Shopping guidance
+- Photography tips
+- Rainy-day alternatives
+- Chinese place names
+- Packing guidance
+- Budget placeholders
+- Travel resources page
+- No legacy Zhangjiajie, Fenghuang, Chengdu, Version 8, or Version 9 pages
 
-The route remains:
-Shanghai → Hangzhou → Wuzhen → Huangshan → Hongcun → Shanghai
-
-No legacy Zhangjiajie, Fenghuang, Chengdu, Version 8, or Version 9 pages
-are included.
+This is the most complete clean Version 10 package so far.

@@ -122,3 +122,29 @@ h2{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin:.2em 0}
 .transport-note{margin-top:22px;padding:20px;border-left:5px solid var(--gold);background:#fff8e9}
 @media(max-width:900px){.chapter-tools,.restaurant-grid{grid-template-columns:repeat(2,1fr)}.hotel-profile{grid-template-columns:1fr}}
 @media(max-width:650px){.chapter-tools,.restaurant-grid{grid-template-columns:1fr}}
+
+/* =========================================================
+   VERSION 10 MILESTONE 4 — COMPLETE EDITION
+   ========================================================= */
+.detail-nav{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+.detail-nav a{padding:8px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);text-decoration:none;font-size:.78rem;font-weight:bold;color:var(--forest)}
+.info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:26px}
+.info-card{padding:24px;background:white;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
+.info-card h3{margin-top:0}
+.compact-list{display:grid;gap:10px;padding:0;list-style:none}
+.compact-list li{padding:12px 14px;border-radius:12px;background:#fff8e9;border:1px solid #ead8b9}
+.phrase-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}
+.phrase-card{padding:18px;border:1px solid var(--line);border-radius:14px;background:white}
+.phrase-card strong,.phrase-card span{display:block}.phrase-card strong{font-size:1.2rem;color:var(--forest)}.phrase-card span{color:var(--muted)}
+.shopping-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.shopping-card{padding:20px;background:white;border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow)}
+.photo-tip-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}
+.photo-tip{padding:20px;background:#2f403a;color:white;border-radius:15px}
+.photo-tip h3{color:#ffe4ad}
+.rain-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+.rain-grid div{padding:16px;background:white;border:1px solid var(--line);border-radius:13px;text-align:center}
+.budget-box{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+.budget-box div{padding:18px;border-radius:14px;background:white;border:1px solid var(--line)}
+.budget-box span,.budget-box strong{display:block}.budget-box span{font-size:.7rem;color:var(--muted);text-transform:uppercase}.budget-box strong{color:var(--rust)}
+@media(max-width:900px){.shopping-grid,.rain-grid,.budget-box{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.info-grid,.phrase-grid,.shopping-grid,.photo-tip-grid,.rain-grid,.budget-box{grid-template-columns:1fr}}

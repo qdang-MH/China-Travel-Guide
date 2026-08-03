@@ -1,17 +1,29 @@
 {
-  "edition": "Version 10 Milestone 3",
-  "base": "Clean restart only",
-  "destinations": [
+  "edition": "Version 10 Milestone 4 Complete Edition",
+  "route": [
     "Shanghai",
     "Hangzhou",
     "Wuzhen",
     "Huangshan",
-    "Hongcun"
+    "Hongcun",
+    "Shanghai"
   ],
-  "features": {
-    "hotel_profiles": 5,
-    "restaurant_cards": 15,
-    "route_stops": 20,
-    "legacy_pages": 0
-  }
+  "days": 10,
+  "destination_pages": 5,
+  "resource_pages": 1,
+  "legacy_pages": 0,
+  "features": [
+    "daily plans",
+    "hotel profiles",
+    "restaurant cards",
+    "maps and directions",
+    "coffee and tea stops",
+    "shopping guide",
+    "photography tips",
+    "rain plans",
+    "Chinese place names",
+    "packing lists",
+    "budget placeholders",
+    "travel resources"
+  ]
 }
