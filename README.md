@@ -1,20 +1,24 @@
 # China — The Four Seasons Collection
-## Version 7.1 — Food Photography
+## Version 7.2 — Local Food Photos
 
-This is a complete full-site snapshot.
+This full-site snapshot fixes the missing-food-image problem.
 
-### Added
-- Representative dish photos on all 17 restaurant-directory cards
-- Representative dish photos in the day-by-day Travel Buddy restaurant cards
-- Clickable image-source links
-- Existing Food Collection retained
-- Food-photo attribution manifest: `docs/food-photo-sources.json`
-- Verification report: `docs/verification-v7.1.json`
+### What changed
+- Food photos are now stored locally in `assets/images/food/`
+- GitHub Pages serves the food images directly
+- Restaurant Directory images no longer rely on Wikimedia hotlinks
+- Travel Buddy food images no longer rely on Wikimedia hotlinks
+- Food Collection images no longer rely on Wikimedia hotlinks
+- Verification report: `docs/verification-v7.2.json`
 
-### Photo note
-The photographs represent the recommended dish or regional food style.
-They may not depict the exact plate served by the named restaurant.
+### Included local photos
+- Xiaolongbao
+- Mapo tofu
+- Chengdu divided-broth hotpot
+- Dan dan noodles
+
+Some restaurant cards reuse a representative regional dish photograph.
 
 ### Installation
-Copy the extracted contents into the local GitHub Desktop repository,
-replace matching files, commit, and push.
+Copy the full contents into the local GitHub Desktop repository, replace
+matching files, commit, and push.
