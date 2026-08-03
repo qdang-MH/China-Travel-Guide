@@ -1,0 +1,14 @@
+{
+  "homepage_present": true,
+  "trip_overview_present": true,
+  "destination_pages": [
+    "hangzhou.html",
+    "hongcun.html",
+    "huangshan.html",
+    "shanghai.html",
+    "wuzhen.html"
+  ],
+  "destination_count": 5,
+  "days_in_trip": 10,
+  "legacy_destinations_removed": true
+}

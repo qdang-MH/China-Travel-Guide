@@ -1,24 +1,28 @@
-# China Luxury Travel Companion
-## Version 9.5 — Real Autumn Photography
+# China in Autumn
+## Version 10 — Milestone 1
 
-This full-site snapshot replaces the illustrated autumn cards on the
-homepage and Trip 1 overview with real photographs.
+This is a fresh foundation built around the original 10-day itinerary.
 
-### Real photographs used
-- Huangshan region, Anhui — autumn landscape
-- Tianmen Mountain, Zhangjiajie — red autumn leaves
-- Chengdu, Sichuan — golden autumn foliage
+### Restored route
+- Shanghai
+- Hangzhou
+- Wuzhen
+- Huangshan
+- Hongcun
+- Return to Shanghai
 
-### Source and licensing
-The photographs are free to use under the Unsplash License. Each card links
-to its source page, and a full credits page is available at:
-`docs/autumn-photo-credits.html`
+### Included
+- New China in Autumn homepage
+- New autumn visual identity
+- Five destination chapters
+- Correct 10-day trip overview
+- Destination-first navigation
+- Local cover artwork for reliable GitHub Pages rendering
+- Legacy Zhangjiajie, Fenghuang, and Chengdu destination pages removed
 
-### Reliability note
-The photos are loaded from Unsplash rather than bundled locally because the
-image server delivered a modern image format during packaging. Each card has
-a graceful fallback and source link if an image cannot load.
+### Verification
+See `docs/verification-v10-m1.json`.
 
 ### Installation
-Replace the repository contents, commit, and push. Then refresh the homepage
-with Ctrl + F5.
+Replace the contents of the local GitHub Desktop repository with this
+package, commit to main, and push origin.

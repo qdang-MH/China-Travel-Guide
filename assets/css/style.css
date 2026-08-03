@@ -1783,3 +1783,36 @@ a{color:inherit}
         height: 270px;
     }
 }
+
+/* =========================================================
+   VERSION 10 MILESTONE 1 — CHINA IN AUTUMN
+   ========================================================= */
+:root{
+  --forest:#30433d;
+  --autumn-gold:#c88a35;
+  --autumn-rust:#a9442d;
+  --autumn-cream:#fbf5ea;
+}
+.v10-hero{min-height:760px}
+.v10-destination-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:34px}
+.v10-destination-card{display:grid;grid-template-columns:1fr 1fr;overflow:hidden;border:1px solid var(--border);border-radius:22px;background:white;box-shadow:var(--shadow);text-decoration:none}
+.v10-destination-card img{width:100%;height:100%;min-height:300px;object-fit:cover}
+.v10-destination-card>div{padding:30px}
+.v10-destination-card h3{margin:4px 0;color:var(--forest);font-family:Georgia,serif;font-size:2rem}
+.v10-destination-card strong{color:var(--autumn-rust)}
+.v10-route{display:flex;align-items:center;gap:14px;overflow-x:auto;margin-top:34px;padding-bottom:12px}
+.v10-route div{min-width:150px;padding:22px;border:1px solid var(--border);border-radius:16px;background:white;text-align:center;box-shadow:var(--shadow)}
+.v10-route span{display:flex;width:36px;height:36px;margin:0 auto 8px;border-radius:50%;align-items:center;justify-content:center;background:var(--autumn-rust);color:white;font-weight:bold}
+.v10-route strong,.v10-route small{display:block}.v10-route strong{font-family:Georgia,serif;color:var(--forest)}.v10-route small{color:var(--muted)}
+.v10-route>b{color:var(--autumn-gold)}
+.v10-chapter-hero{min-height:650px}
+.v10-simple-food-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}
+.v10-simple-food{display:flex;gap:14px;align-items:center;padding:20px;border:1px solid var(--border);border-radius:15px;background:white;box-shadow:var(--shadow)}
+.v10-simple-food span{display:flex;width:42px;height:42px;border-radius:50%;align-items:center;justify-content:center;background:var(--autumn-cream);color:var(--autumn-rust);font-family:Georgia,serif}
+.v10-simple-food strong{color:var(--forest)}
+.v10-day-list{display:grid;gap:14px;margin-top:30px}
+.v10-day-card{display:grid;grid-template-columns:90px 1fr;gap:20px;align-items:center;padding:22px;border:1px solid var(--border);border-radius:16px;background:white;box-shadow:0 10px 28px rgba(45,30,20,.07)}
+.v10-day-card>span{display:flex;width:72px;height:72px;border-radius:50%;align-items:center;justify-content:center;background:var(--forest);color:white;font-weight:bold}
+.v10-day-card h3{margin:2px 0;color:var(--forest);font-family:Georgia,serif;font-size:1.3rem}
+@media(max-width:900px){.v10-destination-grid{grid-template-columns:1fr}.v10-simple-food-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:680px){.v10-destination-card{grid-template-columns:1fr}.v10-simple-food-grid{grid-template-columns:1fr}.v10-day-card{grid-template-columns:1fr}.v10-day-card>span{width:58px;height:58px}}
