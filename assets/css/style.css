@@ -716,3 +716,61 @@ a{color:inherit}
 .media-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.media-card{overflow:hidden;border:1px solid var(--border);border-radius:var(--radius);background:white;box-shadow:var(--shadow)}
 .media-card img{display:block;width:100%;height:310px;object-fit:cover}.media-card>div{padding:22px}.media-card h3{margin:0;color:var(--red-dark);font-family:Georgia,serif;font-size:1.45rem}.media-card p{color:var(--muted)}.media-card a{color:var(--red);font-weight:bold}
 @media(max-width:720px){.media-grid{grid-template-columns:1fr}.media-card img{height:250px}}
+
+/* =========================================================
+   VERSION 5.1 HOTEL, FOOD, AND TRANSPORT COLLECTIONS
+   ========================================================= */
+
+.collection-list,.station-list{display:grid;gap:28px;margin-top:35px}
+.collection-card,.station-card{
+  display:grid;grid-template-columns:.9fr 1.1fr;overflow:hidden;
+  border:1px solid var(--border);border-radius:var(--radius);
+  background:white;box-shadow:var(--shadow)
+}
+.collection-photo,.station-photo{
+  min-height:360px;background-size:cover;background-position:center
+}
+.collection-copy,.station-copy{padding:30px}
+.collection-copy h2,.station-copy h2{
+  font-family:Georgia,serif;color:var(--red-dark);font-size:1.85rem;margin:5px 0 10px
+}
+.collection-price{display:block;color:var(--red);font-size:1.18rem;margin-bottom:12px}
+.collection-actions{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px}
+.collection-actions a,.station-copy a{color:var(--red);font-weight:bold}
+.food-photo-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:35px
+}
+.food-photo-card{
+  overflow:hidden;border:1px solid var(--border);border-radius:var(--radius);
+  background:white;box-shadow:var(--shadow)
+}
+.food-photo-card img{
+  width:100%;height:300px;display:block;object-fit:cover
+}
+.food-photo-copy{padding:24px}
+.food-photo-copy h3{
+  margin:4px 0 8px;color:var(--red-dark);font-family:Georgia,serif;font-size:1.55rem
+}
+.station-copy ul{padding-left:20px}
+.station-copy li{margin-bottom:8px}
+.quick-collection-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px
+}
+.quick-collection-grid a{
+  padding:26px;border:1px solid var(--border);border-radius:16px;
+  background:white;box-shadow:var(--shadow);text-decoration:none
+}
+.quick-collection-grid span,.quick-collection-grid strong{display:block}
+.quick-collection-grid span{
+  color:var(--muted);font-size:.72rem;font-weight:bold;
+  text-transform:uppercase;letter-spacing:.08em
+}
+.quick-collection-grid strong{
+  margin-top:6px;color:var(--red-dark);font-family:Georgia,serif;font-size:1.3rem
+}
+@media(max-width:850px){
+  .collection-card,.station-card,.food-photo-grid,.quick-collection-grid{
+    grid-template-columns:1fr
+  }
+  .collection-photo,.station-photo{min-height:280px}
+}

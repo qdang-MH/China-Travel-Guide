@@ -1,0 +1,208 @@
+{
+  "hotels": [
+    {
+      "city": "Shanghai",
+      "hotel": "Waldorf Astoria Shanghai on the Bund",
+      "price": "$300–$475 per room/night",
+      "image": "Shanghai, China, December 2015 - 036.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Shanghai,_China,_December_2015_-_036.JPG",
+      "official": "https://www.hilton.com/en/hotels/shawawa-waldorf-astoria-shanghai-on-the-bund/gallery/",
+      "reason": "Historic Bund location, excellent walkability, and a comfortable first landing.",
+      "score": [
+        "Location 5/5",
+        "Comfort 5/5",
+        "Walkability 5/5",
+        "Value 4/5"
+      ]
+    },
+    {
+      "city": "Huangshan",
+      "hotel": "Banyan Tree Huangshan",
+      "price": "$260–$500 per room/night",
+      "image": "Hongcun village.jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Hongcun",
+      "official": "https://www.banyantree.com/china/huangshan/gallery",
+      "reason": "A scenic regional base near the ancient-village area, with more conventional resort comfort.",
+      "score": [
+        "Setting 5/5",
+        "Comfort 5/5",
+        "Village access 5/5",
+        "Value 3/5"
+      ]
+    },
+    {
+      "city": "Huangshan Mountain",
+      "hotel": "Xihai Hotel",
+      "price": "$220–$400 per room/night",
+      "image": "Huangshan Mountain.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Huangshan_Mountain.jpg",
+      "official": "https://www.xihaihotelhuangshan.com/en/",
+      "reason": "The practical mountaintop choice for sunset and optional sunrise access.",
+      "score": [
+        "Scenery 5/5",
+        "Experience 5/5",
+        "Comfort 3/5",
+        "Convenience 3/5"
+      ]
+    },
+    {
+      "city": "Zhangjiajie",
+      "hotel": "Hilton Garden Inn Zhangjiajie Wulingyuan",
+      "price": "$75–$145 per room/night",
+      "image": "Sandstone spire forest Zhangjiajie Hunan.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sandstone_spire_forest_Zhangjiajie_Hunan.jpg",
+      "official": "https://www.hilton.com/en/hotels/dyggigi-hilton-garden-inn-zhangjiajie-wulingyuan/",
+      "reason": "One modern Wulingyuan base for all four nights, avoiding an unnecessary hotel change.",
+      "score": [
+        "Location 4/5",
+        "Comfort 4/5",
+        "Value 5/5",
+        "Group fit 5/5"
+      ]
+    },
+    {
+      "city": "Fenghuang",
+      "hotel": "Yunqiao River View Boutique Stay",
+      "price": "$55–$120 per room/night",
+      "image": "凤凰古城夜色一号.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:凤凰古城夜色一号.jpg",
+      "official": "https://www.trip.com/hotels/fenghuang-hotel-detail-17541312/fenghuang-yunqiao-free-river-view-boutique-homestay/",
+      "reason": "Atmosphere and a confirmed river view matter more here than international-brand luxury.",
+      "score": [
+        "Atmosphere 5/5",
+        "View 5/5",
+        "Access 3/5",
+        "Value 5/5"
+      ]
+    },
+    {
+      "city": "Chengdu",
+      "hotel": "Niccolo Chengdu",
+      "price": "$190–$350 per room/night",
+      "image": "Chengdu IFS.jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Chengdu_IFS",
+      "official": "https://www.niccolohotels.com/en/niccolo-chengdu",
+      "reason": "Central location, contemporary comfort, and easy access to dining and shopping.",
+      "score": [
+        "Location 5/5",
+        "Comfort 5/5",
+        "Dining access 5/5",
+        "Value 4/5"
+      ]
+    }
+  ],
+  "food": [
+    {
+      "city": "Shanghai",
+      "dish": "Xiaolongbao",
+      "image": "Xiaolongbao.jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Xiaolongbao"
+    },
+    {
+      "city": "Shanghai",
+      "dish": "Shengjian Bao",
+      "image": "2022-09-03 Sheng Jian Bao - Shanghai Pan-Fried Pork Buns.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2022-09-03_Sheng_Jian_Bao_-_Shanghai_Pan-Fried_Pork_Buns.jpg"
+    },
+    {
+      "city": "Shanghai",
+      "dish": "Scallion-Oil Noodles",
+      "image": "Scallion oil noodles.jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Chinese_noodles"
+    },
+    {
+      "city": "Huangshan",
+      "dish": "Bamboo Shoots",
+      "image": "Bamboo shoots.jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Bamboo_shoots_as_food"
+    },
+    {
+      "city": "Zhangjiajie",
+      "dish": "Hunan Shared Dishes",
+      "image": "Hunan cuisine.jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Hunan_cuisine"
+    },
+    {
+      "city": "Chengdu",
+      "dish": "Mapo Tofu",
+      "image": "Authentic Mapo Tofu.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Authentic_Mapo_Tofu.jpg"
+    },
+    {
+      "city": "Chengdu",
+      "dish": "Chengdu Hotpot",
+      "image": "Chengdu Hot Pot Yuanyangguo style 2019.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chengdu_Hot_Pot_Yuanyangguo_style_2019.jpg"
+    },
+    {
+      "city": "Chengdu",
+      "dish": "Dan Dan Noodles",
+      "image": "Dandan noodles.jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Dandan_noodles"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Shanghai Hongqiao Railway Station",
+      "image": "Shanghai Hongqiao Railway Station 2010.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shanghai_Hongqiao_Railway_Station_2010.jpg",
+      "use": "Departure point for the high-speed rail journey toward Huangshan.",
+      "tips": [
+        "Arrive 45–60 minutes early",
+        "Keep passports accessible",
+        "Allow time for security screening",
+        "Check the gate on the departure board",
+        "Buy snacks before boarding"
+      ]
+    },
+    {
+      "name": "Huangshan North Railway Station",
+      "image": "Huangshanbei Railway Station 2015.06.28 17-19-44.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Huangshanbei_Railway_Station_2015.06.28_17-19-44.jpg",
+      "use": "Main high-speed rail gateway for the Huangshan region.",
+      "tips": [
+        "Arrange the private driver in advance",
+        "Confirm the meeting point",
+        "Allow for luggage loading",
+        "Keep the hotel name in Chinese",
+        "Expect a road transfer after arrival"
+      ]
+    },
+    {
+      "name": "Zhangjiajie Railway Station",
+      "image": "Zhangjiajie railway station.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_railway_station.jpg",
+      "use": "A useful reference station for Zhangjiajie transfers; final station depends on the booked route.",
+      "tips": [
+        "Verify whether the ticket uses Zhangjiajie or Zhangjiajie West",
+        "Share the exact station name with the driver",
+        "Do not assume both stations are interchangeable",
+        "Allow a generous pickup buffer"
+      ]
+    },
+    {
+      "name": "Fenghuang Gucheng Railway Station",
+      "image": "凤凰古城站 外观 (20220805).jpg",
+      "source": "https://commons.wikimedia.org/wiki/Category:Fenghuang_Gucheng_Railway_Station",
+      "use": "High-speed rail access for Fenghuang Ancient Town.",
+      "tips": [
+        "The station is outside the ancient town",
+        "Arrange onward transport before arrival",
+        "Confirm the hotel meeting point",
+        "Keep small luggage accessible"
+      ]
+    },
+    {
+      "name": "Chengdu East Railway Station",
+      "image": "Chengdu East Railway Station.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chengdu_East_Railway_Station.jpg",
+      "use": "Major Chengdu high-speed rail hub with metro and taxi connections.",
+      "tips": [
+        "Follow signs carefully in the large concourse",
+        "Use the official taxi queue",
+        "Keep the hotel address offline",
+        "Allow extra walking time inside the station"
+      ]
+    }
+  ]
+}
