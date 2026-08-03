@@ -709,3 +709,10 @@ a{color:inherit}
         height: 250px;
     }
 }
+
+/* VERSION 5 ATTRACTION-SPECIFIC MEDIA */
+.image-source-link{display:inline-block;margin-top:12px;color:var(--red);font-size:.76rem;font-weight:bold;text-decoration:none}
+.media-destination{margin-bottom:70px}.media-destination>h2{font-family:Georgia,serif;color:var(--red-dark);font-size:2.4rem}
+.media-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.media-card{overflow:hidden;border:1px solid var(--border);border-radius:var(--radius);background:white;box-shadow:var(--shadow)}
+.media-card img{display:block;width:100%;height:310px;object-fit:cover}.media-card>div{padding:22px}.media-card h3{margin:0;color:var(--red-dark);font-family:Georgia,serif;font-size:1.45rem}.media-card p{color:var(--muted)}.media-card a{color:var(--red);font-weight:bold}
+@media(max-width:720px){.media-grid{grid-template-columns:1fr}.media-card img{height:250px}}
