@@ -1,25 +1,22 @@
 # China Luxury Travel Companion
-## Version 8.1 — Integrated Destination Chapters
+## Version 8.2 — Clean Dashboard
 
-This full-site snapshot keeps the Version 8 structure and improves each
-destination chapter.
+This full-site snapshot keeps all Version 8.1 content and improves the
+homepage “Everything in one place” dashboard.
 
-### Added to every destination chapter
-- Food photos directly inside the “What to Try” section
-- Dish descriptions
-- Price ranges
-- Spice guidance
-- Direct links to hotel details
-- Direct links to restaurant names and directions
-- Direct links to the full food guide
-- Direct links to transportation
-- Direct links to maps and directions
-
-### Also added
-- Destination chapter shortcuts on the Trip 1 overview
-- Direct anchors in the Hotel, Restaurant, and Directions collections
-- Verification report: `docs/verification-v8.1.json`
+### Dashboard improvements
+- Clear heading and introduction
+- Two prominent primary cards
+- Six compact utility cards
+- More consistent spacing and typography
+- Better visual hierarchy
+- Cleaner desktop layout
+- Improved tablet and mobile layouts
+- Less crowded card content
 
 ### Installation
 Copy all extracted contents into the local GitHub Desktop repository,
 replace matching files, commit, and push.
+
+After GitHub Pages finishes rebuilding, refresh the live website with
+Ctrl + F5.
