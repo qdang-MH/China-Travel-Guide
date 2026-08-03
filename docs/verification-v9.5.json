@@ -1,0 +1,30 @@
+{
+  "homepage_real_autumn_photos": 3,
+  "trip_real_autumn_photos": 3,
+  "unique_photo_urls": 3,
+  "credit_page_present": true,
+  "illustrated_autumn_refs_remaining_on_homepage": 0,
+  "sources": {
+    "huangshan": {
+      "url": "https://images.unsplash.com/photo-1637027876933-1b64cf60a0b2?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=72&w=1800",
+      "page": "https://unsplash.com/photos/a-scenic-view-of-a-town-surrounded-by-mountains-ol6AnELgDy0",
+      "credit": "Yang Song",
+      "title": "Huangshan Region in Autumn",
+      "description": "A real autumn landscape in Shexian, Huangshan City, Anhui."
+    },
+    "zhangjiajie": {
+      "url": "https://images.unsplash.com/photo-1747524475650-ead66fcfa738?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=72&w=1800",
+      "page": "https://unsplash.com/photos/autumn-leaves-frame-a-beautiful-ancient-pagoda-1GHxVB9YhC8",
+      "credit": "Jakub Tomasik",
+      "title": "Tianmen Mountain Autumn",
+      "description": "Real red autumn leaves framing traditional architecture at Tianmen Mountain."
+    },
+    "chengdu": {
+      "url": "https://images.unsplash.com/photo-1784819794682-6ad3d8d2d7c1?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=72&w=1800",
+      "page": "https://unsplash.com/photos/golden-autumn-leaves-on-tree-branches-with-sunlight-filtering-through-7_3yYeQrFF8",
+      "credit": "Leongsan",
+      "title": "Golden Foliage in Chengdu",
+      "description": "Real golden autumn leaves photographed in Chengdu, Sichuan."
+    }
+  }
+}

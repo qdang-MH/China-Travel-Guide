@@ -1747,3 +1747,39 @@ a{color:inherit}
         height: 260px;
     }
 }
+
+/* =========================================================
+   VERSION 9.5 REAL AUTUMN PHOTOGRAPHY
+   ========================================================= */
+
+.real-autumn-card > a {
+    display: block;
+    background: #d7c2a1;
+}
+
+.real-autumn-card img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+.real-autumn-card small {
+    display: block;
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 0.72rem;
+}
+
+.autumn-image-failed > a::before {
+    content: "Photo could not load — open the source link";
+    display: block;
+    padding: 80px 24px;
+    color: #6b4d31;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .real-autumn-card img {
+        height: 270px;
+    }
+}
