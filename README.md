@@ -1,26 +1,24 @@
 # China — The Four Seasons Collection
-## Version 5.1 — Hotels, Food, and Transportation
+## Version 6 — Verified Links & Directions
 
-This update preserves the existing repository structure.
+This is a complete full-site snapshot preserving the existing repository structure.
 
-### New pages
-- `docs/hotels.html`
-- `docs/food.html`
-- `docs/transportation.html`
-
-### Additions
-- Hotel collection with planning prices, scorecards, and official gallery links
-- Representative food photography, spice guidance, and estimated prices
-- Exact railway-station photography and transfer tips
-- High-speed rail boarding flow
-- Luggage and driver meeting-point guidance
-- Homepage and Trip 1 shortcuts to the new collections
-
-### Hotel-photo note
-Reusable hotel photography is limited. The Waldorf Astoria card uses a
-Wikimedia Commons hotel photograph. Other cards use destination-context
-photography and link to each hotel’s official gallery.
+### Included
+- Official links for all selected hotels
+- Google Maps hotel and attraction searches
+- Directions from each selected hotel to planned attractions and stations
+- Amap links for use in China
+- Central link directory: `docs/links-directions.html`
+- Updated destination pages with map and direction buttons
+- Existing hotel, food, attraction, transportation, and photo content
+- Verification page: `docs/verification.html`
+- Machine-readable report: `docs/verification-report.json`
 
 ### Installation
-Copy the extracted contents into the local GitHub Desktop repository,
-replace matching files, commit, and push.
+Replace the contents of your local GitHub Desktop repository with the
+contents of this folder, then commit and push.
+
+### Navigation note
+Google Maps routing in mainland China may be imperfect. Amap links are
+provided as an additional local option. Always verify entrances, pickup
+points, and current operating conditions during the trip.

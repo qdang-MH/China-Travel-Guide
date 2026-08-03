@@ -774,3 +774,41 @@ a{color:inherit}
   }
   .collection-photo,.station-photo{min-height:280px}
 }
+
+/* =========================================================
+   VERSION 6 VERIFIED LINKS AND DIRECTIONS
+   ========================================================= */
+.link-toolbar {
+  display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 26px;
+}
+.map-link {
+  display:inline-block; padding:10px 14px; border-radius:999px;
+  border:1px solid var(--border); background:white; color:var(--red);
+  font-weight:bold; text-decoration:none;
+}
+.map-link:hover { background:var(--cream); border-color:var(--gold); }
+.location-directory { display:grid; gap:18px; margin-top:34px; }
+.location-card {
+  padding:24px; border:1px solid var(--border); border-radius:var(--radius);
+  background:white; box-shadow:var(--shadow);
+}
+.location-card h3 { margin:0 0 5px; color:var(--red-dark); font-family:Georgia,serif; }
+.location-card p { margin:0 0 14px; color:var(--muted); }
+.direction-grid {
+  display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin-top:18px;
+}
+.direction-item {
+  padding:18px; border:1px solid var(--border); border-radius:14px; background:#fffaf1;
+}
+.direction-item strong { display:block; color:var(--red-dark); margin-bottom:10px; }
+.verified-banner {
+  padding:14px 0; background:#e8f1e9; border-bottom:1px solid #bfd2c2;
+  color:#315b3c; font-size:.84rem;
+}
+.verified-banner strong { color:#244c30; }
+.link-status-table { width:100%; border-collapse:collapse; margin-top:25px; }
+.link-status-table th,.link-status-table td {
+  padding:12px; border-bottom:1px solid var(--border); text-align:left;
+}
+.link-status-table th { color:var(--red-dark); }
+@media(max-width:760px){ .direction-grid{grid-template-columns:1fr} }
