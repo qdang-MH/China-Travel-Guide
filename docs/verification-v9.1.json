@@ -1,0 +1,29 @@
+{
+  "distinct_local_food_files": 4,
+  "shanghai_food_cards": 4,
+  "distinct_image_references": {
+    "xiaolongbao": 1,
+    "shengjian_bao": 1,
+    "scallion_oil_noodles": 1,
+    "red_braised_pork": 1
+  },
+  "credits_page_present": true,
+  "files": {
+    "xiaolongbao-shanghai.jpg": {
+      "bytes": 635015,
+      "sha256": "4aca1a5e8a8fd848638fced800d8468763515e50a9b156482c1ec51dd099dc46"
+    },
+    "shengjian-bao.jpg": {
+      "bytes": 1286897,
+      "sha256": "7cc532d46bed0b4dad765bc26b8fe7ad8f4a6143e0cd8913fa69c0a4e589e30c"
+    },
+    "scallion-oil-noodles.jpg": {
+      "bytes": 129040,
+      "sha256": "3922e828c42846a358476cf1ed11202774945c565c08d20ad86eb30bd62d6af2"
+    },
+    "red-braised-pork.jpg": {
+      "bytes": 1104503,
+      "sha256": "76bacd13e7951893866801bd2ead3ad060505803a0ba71dd287bb6591ce8837c"
+    }
+  }
+}

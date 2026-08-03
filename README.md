@@ -1,26 +1,25 @@
 # China Luxury Travel Companion
-## Version 9 — Shanghai Showcase
+## Version 9.1 — Distinct Shanghai Food Photos
 
-This complete site snapshot preserves all Version 8.2 content and adds a
-publication-style Shanghai flagship chapter.
+This full-site snapshot fixes the repeated-image issue in the Shanghai
+Food Atlas.
 
-### Shanghai showcase includes
-- Full-screen Bund hero
-- Quick facts
-- Why Shanghai works as the first stop
-- Waldorf Astoria hotel profile
-- Hotel scorecard and official/map links
-- Signature Day 2 route
-- Integrated Shanghai Food Atlas
-- Four detailed dish profiles
-- Three restaurant profiles
-- Ordering guidance
-- Rainy-day and low-energy alternatives
-- Homepage showcase feature
+### Shanghai dishes now have separate local photos
+- Xiaolongbao
+- Shengjian Bao
+- Scallion-Oil Noodles
+- Red-Braised Pork
 
-### Verification
-See `docs/verification-v9.json`.
+### Reliability
+All four photographs are stored inside `assets/images/food/`, so GitHub
+Pages serves them directly rather than relying on external hotlinks.
+
+### Attribution
+- Individual source links appear on each dish card
+- Full credits page: `docs/shanghai-food-photo-credits.html`
+- Verification report: `docs/verification-v9.1.json`
 
 ### Installation
-Copy the full extracted contents into the local GitHub Desktop repository,
-replace matching files, commit, and push.
+Copy all extracted contents into the local GitHub Desktop repository,
+replace matching files, commit, and push. Then refresh the live website
+with Ctrl + F5.
