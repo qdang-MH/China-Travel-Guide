@@ -1,28 +1,22 @@
 # China — The Four Seasons Collection
-## Version 4.2 Photography Edition
+## Version 4.3 Review Edition
 
-This update preserves the repository structure:
+This update preserves the existing repository structure.
 
-- assets/
-- destinations/
-- docs/
-- trips/
-- index.html
-- README.md
+### Additions
+- Four-image gallery for every Trip 1 destination
+- Visual transfer-flow diagrams
+- Destination-specific “Don’t Miss” guidance
+- Group-review notes on each destination
+- Dedicated Trip 1 review checklist
+- Meeting-note worksheet
+- Gallery-source metadata and links
+- Responsive gallery and checklist layouts
 
-### Improvements
-- Real destination photographs from Wikimedia Commons
-- Photographic homepage hero
-- Photographic destination heroes
-- Photographic destination chapter cards
-- Photograph attribution strips
-- Complete image-credits page
-- Existing SVG artwork retained as optional fallback material
-
-### Important
-The photographs are loaded from Wikimedia Commons and therefore require
-an internet connection. Each image links to its source and license page.
+### Photography
+Images are loaded from Wikimedia Commons and require an internet connection.
+Each gallery image links to its Commons source page.
 
 ### Installation
-Copy the contents into the local GitHub Desktop repository, replace matching
-files, commit, and push.
+Copy all contents into the local GitHub Desktop repository, replace matching
+files, commit to main, and push origin.
