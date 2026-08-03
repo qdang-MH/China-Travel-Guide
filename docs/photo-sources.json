@@ -1,0 +1,44 @@
+{
+  "home": {
+    "file": "Shanghai - Bund at Night.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shanghai_-_Bund_at_Night.jpg",
+    "credit": "Urashimataro",
+    "license": "See Wikimedia Commons file page",
+    "display_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20-%20Bund%20at%20Night.jpg?width=1800"
+  },
+  "shanghai": {
+    "file": "Shanghai - Bund at Night.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shanghai_-_Bund_at_Night.jpg",
+    "credit": "Urashimataro",
+    "license": "See Wikimedia Commons file page",
+    "display_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20-%20Bund%20at%20Night.jpg?width=1800"
+  },
+  "huangshan": {
+    "file": "20160422 CHINA 1321.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20160422_CHINA_1321.jpg",
+    "credit": "Nicolascornet",
+    "license": "Creative Commons; see file page",
+    "display_url": "https://commons.wikimedia.org/wiki/Special:FilePath/20160422%20CHINA%201321.jpg?width=1800"
+  },
+  "zhangjiajie": {
+    "file": "Sandstone spire forest Zhangjiajie Hunan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sandstone_spire_forest_Zhangjiajie_Hunan.jpg",
+    "credit": "Lianguanlun",
+    "license": "See Wikimedia Commons file page",
+    "display_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandstone%20spire%20forest%20Zhangjiajie%20Hunan.jpg?width=1800"
+  },
+  "fenghuang": {
+    "file": "凤凰古城夜色一号.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E5%A4%9C%E8%89%B2%E4%B8%80%E5%8F%B7.jpg",
+    "credit": "蒋仕恒",
+    "license": "See Wikimedia Commons file page",
+    "display_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%87%A4%E5%87%B0%E5%8F%A4%E5%9F%8E%E5%A4%9C%E8%89%B2%E4%B8%80%E5%8F%B7.jpg?width=1800"
+  },
+  "chengdu": {
+    "file": "Chengdu pandas eating.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chengdu_pandas_eating.jpg",
+    "credit": "Hyjk2000",
+    "license": "See Wikimedia Commons file page",
+    "display_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chengdu%20pandas%20eating.jpg?width=1800"
+  }
+}
