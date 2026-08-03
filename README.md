@@ -1,23 +1,24 @@
 # China Luxury Travel Companion
-## Version 9.3 — Distinct Restaurant Photos
+## Version 9.4 — Authentic Restaurant Dish Photos
 
-This full-site snapshot fixes the repeated generic photographs in the
-Restaurant section.
+Version 9.3 used distinct filenames, but some files were copies of the same
+small source set. Version 9.4 removes that shortcut.
 
 ### What changed
-- Restaurant cards now point to individually named local image files
-- Shanghai restaurant cards use different featured dishes
-- Travel Buddy restaurant cards use local restaurant image assignments
-- Shanghai Showcase restaurant profiles now include food images
-- Restaurant image filenames are displayed under the cards for verification
-- Cache-busting `?v=93` references are included
-- Verification report: `docs/verification-v9.3.json`
+- 17 restaurant cards now reference 17 genuinely different dish photographs
+- Shanghai cards use xiaolongbao, shengjian bao, crab dumplings, and oil noodles
+- Huangshan cards use bamboo shoots, fermented mandarin fish, and chicken soup
+- Zhangjiajie cards use Hunan pork, mixed hotpot, and noodles
+- Fenghuang cards use duck-blood specialty, fish soup, and café breakfast
+- Chengdu cards use mapo tofu, divided hotpot, dan dan noodles, and tangyuan
+- Shanghai showcase restaurant cards are updated too
+- Source manifest: `docs/restaurant-photo-sources-v9.4.json`
+- Verification: `docs/verification-v9.4.json`
 
-### Important
-Some restaurant images are representative photographs of the restaurant's
-recommended dish rather than photographs taken at that exact restaurant.
+### Accuracy note
+The image represents the recommended dish or food style. It is not presented
+as a photograph taken at the named restaurant unless explicitly stated.
 
 ### Installation
-Replace the full contents of the local GitHub repository, commit, and push.
-After GitHub Pages rebuilds, use Ctrl + F5 and confirm the Restaurant page
-shows the “Version 9.3 restaurant-photo update” banner.
+Replace the complete repository contents, commit, and push. Then use Ctrl + F5.
+Confirm the Restaurant page shows the Version 9.4 authentic-dish banner.
