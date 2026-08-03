@@ -1,28 +1,21 @@
-# China in Autumn
-## Version 10 — Milestone 1
+# China in Autumn — Version 10 Clean Restart
 
-This is a fresh foundation built around the original 10-day itinerary.
+This package was created from an empty folder.
 
-### Restored route
-- Shanghai
-- Hangzhou
-- Wuzhen
-- Huangshan
-- Hongcun
-- Return to Shanghai
+It contains only:
+- Homepage
+- 10-day Trip 1 overview
+- Shanghai chapter
+- Hangzhou chapter
+- Wuzhen chapter
+- Huangshan chapter
+- Hongcun chapter
+- One shared stylesheet
+- Six local cover images
 
-### Included
-- New China in Autumn homepage
-- New autumn visual identity
-- Five destination chapters
-- Correct 10-day trip overview
-- Destination-first navigation
-- Local cover artwork for reliable GitHub Pages rendering
-- Legacy Zhangjiajie, Fenghuang, and Chengdu destination pages removed
+No legacy Zhangjiajie, Fenghuang, Chengdu, old hotel, restaurant, food,
+transport, wallet, or Version 8/9 pages are included.
 
-### Verification
-See `docs/verification-v10-m1.json`.
-
-### Installation
-Replace the contents of the local GitHub Desktop repository with this
-package, commit to main, and push origin.
+Important installation:
+Delete all existing repository contents first, except the `.git` folder,
+then copy the contents of this package into the repository.

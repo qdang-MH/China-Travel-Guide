@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900"><defs><linearGradient id="g" x1="0" x2="1" y2="1"><stop stop-color="#27443e"/><stop offset="1" stop-color="#718779"/></linearGradient></defs><rect width="1600" height="900" fill="url(#g)"/><circle cx="1230" cy="190" r="120" fill="#ffe5a5" opacity=".8"/><path d="M0 650 Q260 420 520 650 T1040 650 T1600 620V900H0Z" fill="#a66d48" opacity=".58"/><path d="M0 735 Q330 520 650 720 T1300 700 T1600 690V900H0Z" fill="#24151a" opacity=".58"/><text x="105" y="145" fill="white" font-size="84" font-family="Georgia,serif">Huangshan</text><text x="110" y="210" fill="#ffe0a5" font-size="31" font-family="Arial">Granite peaks and sea of clouds</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#506673"/><stop offset="1" stop-color="#d09d5a"/>
+</linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<circle cx="1270" cy="170" r="110" fill="#ffe6a5" opacity=".85"/>
+<path d="M0 690 L250 420 L430 650 L700 280 L960 700 L1240 380 L1600 700 V900 H0Z" fill="#3e4b47" opacity=".85"/>
+<g opacity=".95">
+<circle cx="130" cy="610" r="85" fill="#b33b29"/>
+<circle cx="250" cy="570" r="72" fill="#df9b2e"/>
+<circle cx="420" cy="640" r="92" fill="#c44b2e"/>
+<circle cx="1170" cy="590" r="88" fill="#df9b2e"/>
+<circle cx="1350" cy="560" r="76" fill="#b33b29"/>
+<circle cx="1490" cy="630" r="92" fill="#d67b29"/>
+</g>
+<text x="90" y="125" fill="#fff" font-family="Georgia,serif" font-size="80">Huangshan</text>
+<text x="95" y="190" fill="#ffe7b5" font-family="Arial,sans-serif" font-size="30">Granite peaks, clouds, and late-autumn scenery</text>
+</svg>

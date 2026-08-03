@@ -1,0 +1,13 @@
+{
+  "edition": "Version 10 Clean Restart",
+  "pages": [
+    "index.html",
+    "trips/trip1/index.html",
+    "destinations/shanghai.html",
+    "destinations/hangzhou.html",
+    "destinations/wuzhen.html",
+    "destinations/huangshan.html",
+    "destinations/hongcun.html"
+  ],
+  "legacy_pages_included": []
+}
