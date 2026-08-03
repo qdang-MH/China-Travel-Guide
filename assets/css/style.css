@@ -887,3 +887,30 @@ a{color:inherit}
         height: 250px;
     }
 }
+
+/* =========================================================
+   VERSION 8 PRODUCTION RELEASE
+   ========================================================= */
+.v8-dashboard{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.v8-dashboard a{padding:26px;border:1px solid var(--border);border-radius:16px;background:white;box-shadow:var(--shadow);text-decoration:none}
+.v8-dashboard span{display:block;color:var(--gold);font-family:Georgia,serif;font-size:2rem}
+.v8-dashboard strong,.v8-dashboard small{display:block}.v8-dashboard strong{color:var(--red-dark);font-size:1.2rem}.v8-dashboard small{color:var(--muted);margin-top:5px}
+.daily-brief-list{display:grid;gap:22px}
+.daily-brief-card{display:grid;grid-template-columns:90px 1fr;gap:22px;padding:25px;border:1px solid var(--border);border-radius:var(--radius);background:white;box-shadow:var(--shadow)}
+.daily-brief-number{width:70px;height:70px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--red);color:white;font-family:Georgia,serif;font-size:1.7rem}
+.daily-brief-copy h2{font-size:1.6rem}
+.daily-brief-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:15px 0}
+.daily-brief-stats span{padding:12px;border-radius:12px;background:var(--cream);font-size:.82rem}
+.daily-brief-stats b{display:block;color:var(--red-dark)}
+.budget-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:start}
+.budget-inputs{display:grid;gap:12px}.budget-row{display:grid;grid-template-columns:1fr 150px;gap:20px;align-items:center;padding:16px;border:1px solid var(--border);border-radius:12px;background:white}
+.budget-row input{padding:10px;border:1px solid var(--border);border-radius:8px;font-size:1rem}
+.budget-total-card{position:sticky;top:90px;padding:30px;border-radius:var(--radius);background:var(--red-dark);color:white}
+.budget-total-card span,.budget-total-card small,.budget-total-card strong{display:block}.budget-total-card strong{font-family:Georgia,serif;font-size:2rem;margin:5px 0 18px}
+.shopping-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.shopping-card{padding:24px;border:1px solid var(--border);border-radius:16px;background:white;box-shadow:var(--shadow)}.shopping-card h3{font-family:Georgia,serif;color:var(--red-dark)}
+.phrase-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.phrase-card{padding:24px;border-radius:14px;background:white;border:1px solid var(--border)}.phrase-card h3{margin:0;color:var(--red-dark)}.phrase-card strong{display:block;font-size:1.5rem;margin-top:10px}
+.download-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.download-card{padding:26px;border:1px solid var(--border);border-radius:16px;background:white;box-shadow:var(--shadow);text-decoration:none}.download-card strong,.download-card span{display:block}.download-card strong{font-family:Georgia,serif;color:var(--red-dark);font-size:1.5rem}.download-card span{color:var(--red);margin-top:8px}
+.wallet-page{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:30px;background:var(--cream)}.wallet-card{width:min(650px,100%);padding:45px;border-radius:24px;background:white;box-shadow:var(--shadow);text-align:center}.wallet-card h1{font-family:Georgia,serif;color:var(--red-dark);font-size:3rem;margin:0}.wallet-card h2{font-family:Georgia,serif}.wallet-cn{font-size:1.5rem;font-weight:bold}.wallet-qr{width:220px;max-width:80%;margin:20px auto;display:block}.phrase-mini{padding:18px;background:var(--cream);border-radius:14px}.phrase-mini span,.phrase-mini strong{display:block}.wallet-note{color:var(--muted);font-size:.8rem}
+@media(max-width:900px){.v8-dashboard,.shopping-grid,.download-grid{grid-template-columns:repeat(2,1fr)}.budget-layout{grid-template-columns:1fr}.budget-total-card{position:static}.daily-brief-stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:680px){.v8-dashboard,.shopping-grid,.download-grid,.phrase-grid,.daily-brief-stats{grid-template-columns:1fr}.daily-brief-card{grid-template-columns:1fr}.budget-row{grid-template-columns:1fr}}
+@media print{.site-header,.footer,.nav-links,.button{display:none!important}.wallet-page{padding:0;background:white}.wallet-card{box-shadow:none;border:1px solid #ccc}}

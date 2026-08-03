@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "file": "index.html",
+      "exists": true,
+      "bytes": 3916,
+      "sha256": "06257c83d92df632f6148e51471fc6e52a8e90c438681dd6f75b26eae484b790"
+    },
+    {
+      "file": "trips/trip1/index.html",
+      "exists": true,
+      "bytes": 121460,
+      "sha256": "bb87fe745c6c0e61a391840762404868c12d54fe35d7eb573d83b8553e910314"
+    },
+    {
+      "file": "docs/daily-briefings.html",
+      "exists": true,
+      "bytes": 9067,
+      "sha256": "b54c56f4da3d4c22cdca658ac3f2ec3359a4206a9c280739341c1b6e5a2168b7"
+    },
+    {
+      "file": "docs/budget.html",
+      "exists": true,
+      "bytes": 2816,
+      "sha256": "3c228b687b7fd36d6e77e13de4c09fa9b29b0d8d32edd0adaa51b179cb944c5b"
+    },
+    {
+      "file": "docs/shopping.html",
+      "exists": true,
+      "bytes": 3004,
+      "sha256": "f2637de117840c7870bbbfab1fa5ccf9ce841e5ed5a2bc834ad0396e150fb7d5"
+    },
+    {
+      "file": "docs/toolkit.html",
+      "exists": true,
+      "bytes": 3252,
+      "sha256": "e2a29cf2f8fed9b6f1de10bf0f4247422445d872e87cd7ce269fa41d1a59c12b"
+    },
+    {
+      "file": "docs/downloads.html",
+      "exists": true,
+      "bytes": 2302,
+      "sha256": "d4a8a615e42d7ac1fc370d74b32ea047edf224e71704ff429aceb02a1440736f"
+    },
+    {
+      "file": "assets/js/budget.js",
+      "exists": true,
+      "bytes": 1184,
+      "sha256": "98598ac93b59de1654c915f59d7f176842b2a9ee33172a446a3ffe4f4effa3f1"
+    },
+    {
+      "file": "assets/css/style.css",
+      "exists": true,
+      "bytes": 33546,
+      "sha256": "16ca6f17252b118ac302d076e6c034d4e35e3db37766fc34e1a319a671be8718"
+    },
+    {
+      "file": "wallets/shanghai.html",
+      "exists": true,
+      "bytes": 916,
+      "sha256": "9696eaf080c079fd204e27c6549ef40de73756d35ae309f3e9ab3e2339112925"
+    },
+    {
+      "file": "wallets/huangshan.html",
+      "exists": true,
+      "bytes": 869,
+      "sha256": "c4ccdd115f4702b0e2826f9ccf149c7e74b14aeb514a3c842af506e0416a83eb"
+    },
+    {
+      "file": "wallets/zhangjiajie.html",
+      "exists": true,
+      "bytes": 925,
+      "sha256": "b4549505525324c09fc34c05e8ac031d8e922fefa333956e7b393676474ff481"
+    },
+    {
+      "file": "wallets/fenghuang.html",
+      "exists": true,
+      "bytes": 908,
+      "sha256": "97a14e5b7f37453c56075fabe36c3ba94aafa735d277396fcd97779fae712512"
+    },
+    {
+      "file": "wallets/chengdu.html",
+      "exists": true,
+      "bytes": 879,
+      "sha256": "2ac6113689739b3804d87a24597185de87c3cec8b79b5f6924cd949a2b3b4023"
+    }
+  ],
+  "checks": {
+    "required_files": 14,
+    "required_files_present": 14,
+    "wallet_pages": 5,
+    "qr_codes": 5,
+    "daily_briefings": 14,
+    "budget_inputs": 8
+  }
+}
