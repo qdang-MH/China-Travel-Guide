@@ -1,25 +1,21 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Zhangjiajie — China Travel Guide</title>
-<link rel="stylesheet" href="../assets/css/style.css">
-</head><body>
-<header class="site-header"><nav class="navbar container"><a class="brand" href="../index.html">China</a><div class="nav-links"><a href="../index.html">Home</a><a href="../trips/trip1/index.html">Trip 1</a></div></nav></header>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Day 8 — National Forest Park Introduction</title><link rel="stylesheet" href="../../assets/css/style.css"></head><body>
+<header class="site-header"><nav class="navbar container">
+<a class="brand" href="../../index.html">China</a>
+<div class="nav-links">
+<a href="../../index.html">Home</a>
+<a href="../../trip1/index.html">Trip 1</a>
+<a href="../../trip1/toolkit/index.html">Toolkit</a>
+</div></nav></header>
 <main>
-<section class="page-hero"><div class="container"><p class="eyebrow">Trip 1 Destination Guide</p><h1>Zhangjiajie</h1><p class="lead">Sandstone pillars and mountain lifts</p></div></section>
-<section class="section container"><div class="destination-grid">
-<div>
-<p class="section-label">Selected Stay</p><h2>Hilton Garden Inn Zhangjiajie Wulingyuan</h2><p class="lead">A modern four-night base in Wulingyuan without an unnecessary downtown move.</p>
-<div class="tag-row"><span class="tag">4 nights</span><span class="tag">Moderate, with shuttles and lifts</span></div>
-<article class="hotel-card"><h3>Estimated Hotel Price</h3><strong class="price">$75–$145 per room/night</strong><p>Planning estimate only. Final rate depends on dates, room type, breakfast, taxes, and cancellation terms.</p></article>
-</div>
-<aside class="info-box"><h3>Quick Guide</h3><ul class="quick-list"><li><strong>Food:</strong> Hunan dishes, rice, vegetables, mild shared plates</li><li>Enter the park early</li><li>Keep days weather-flexible</li><li>Bring snacks</li><li>Use a driver for Tianmen Mountain</li><li>Do not change hotels</li></ul></aside>
+<section class="page-hero" style="background-image:url('../../assets/images/zhangjiajie.svg')"><div class="page-hero-inner container">
+<p class="eyebrow">Trip 1 · Day 8</p><h1>National Forest Park Introduction</h1><p class="lead">Zhangjiajie — The first full park day, using shuttles and lifts to control fatigue.</p>
 </div></section>
-<section class="section section-muted"><div class="container"><p class="section-label">Traveler Notes</p><h2>What the group should remember</h2><div class="grid cards-3">
-<article class="card"><h3>Arrival</h3><p>Keep the hotel name and address available offline and arrange the final transfer before arrival.</p></article>
-<article class="card"><h3>During the Stay</h3><p>Follow the Trip 1 daily pages for timing, walking, food, and what to carry.</p></article>
-<article class="card"><h3>Departure</h3><p>Confirm transportation, luggage count, passports, and the next hotel address the evening before.</p></article>
-</div></div></section>
-</main>
-<footer class="footer"><div class="container footer-inner"><div><strong>Zhangjiajie Guide</strong><p>Version 3.1</p></div><div><a href="../trips/trip1/index.html">Return to Trip 1</a></div></div></footer>
-</body></html>
+<section class="section container"><div class="day-summary"><div><span>Transport</span><strong>Park shuttles + lifts</strong></div><div><span>Walking</span><strong>12–16 km</strong></div><div><span>Weather</span><strong>Cool / mist possible</strong></div><div><span>Budget</span><strong>$55–$110</strong></div></div>
+<div class="destination-layout"><div><p class="section-label">Today’s Plan</p><h2>Follow the day in sequence</h2><div class="timeline"><div class="timeline-row"><time>Opening</time><section><h3>Enter early</h3><p>Carry passports or required identification.</p></section></div><div class="timeline-row"><time>Morning</time><section><h3>Scenic route</h3><p>Choose the route based on visibility and crowds.</p></section></div><div class="timeline-row"><time>Lunch</time><section><h3>Simple park meal</h3><p>Bring snacks and keep expectations practical.</p></section></div><div class="timeline-row"><time>Afternoon</time><section><h3>Additional viewpoints</h3><p>Return before exhaustion.</p></section></div></div></div>
+<aside class="info-box"><h3>Traveler Notes</h3><ul class="quick-list"><li><strong>Hotel:</strong> Hilton Garden Inn Zhangjiajie Wulingyuan</li><li><strong>Carry:</strong> Water, snacks, rain shell, power bank, tissues</li><li><strong>Food:</strong> Hotel breakfast, simple park lunch, Wulingyuan dinner</li><li><strong>Best advice:</strong> Do not judge the day too early—mist can clear quickly.</li></ul></aside></div>
+<div class="button-row"><a class="button button-outline" href="day7.html">← Day 7</a><a class="button button-outline" href="../index.html">Trip Overview</a><a class="button button-primary" href="day9.html">Day 9 →</a></div></section>
+</main><footer class="footer"><div class="container footer-inner">
+<div><strong>China — The Four Seasons Collection</strong><p>Version 4 · Milestone 2 Review</p></div>
+<div><a href="../../trip1/index.html">Open Trip 1</a></div>
+</div></footer></body></html>
