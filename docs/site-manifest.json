@@ -1,5 +1,5 @@
 {
-  "edition": "Version 10 Milestone 4 Complete Edition",
+  "edition": "China in Autumn Edition 1 Framework",
   "route": [
     "Shanghai",
     "Hangzhou",
@@ -8,22 +8,17 @@
     "Hongcun",
     "Shanghai"
   ],
-  "days": 10,
-  "destination_pages": 5,
-  "resource_pages": 1,
-  "legacy_pages": 0,
+  "new_pages": [
+    "docs/food-atlas.html",
+    "docs/hotels.html",
+    "trips/trip1/companion.html"
+  ],
   "features": [
-    "daily plans",
-    "hotel profiles",
-    "restaurant cards",
-    "maps and directions",
-    "coffee and tea stops",
-    "shopping guide",
-    "photography tips",
-    "rain plans",
-    "Chinese place names",
-    "packing lists",
-    "budget placeholders",
-    "travel resources"
-  ]
+    "simplified navigation",
+    "mobile menu",
+    "search",
+    "travel checklist",
+    "local progress storage"
+  ],
+  "legacy_pages": 0
 }
