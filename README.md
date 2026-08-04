@@ -1,14 +1,22 @@
-# China in Autumn — Edition 1 Visual Milestone
+# China in Autumn — Edition 1 Visual Fix
 
-Added:
-- Real Huangshan sunrise homepage hero
-- Large visual homepage story cards
-- New Hangzhou West Lake hero and gallery
-- Expanded Wuzhen night and canal gallery
-- Expanded Huangshan sunrise and sea-of-clouds gallery
-- Expanded Hongcun Moon Pond and village gallery
-- Photographed Food Atlas highlights
-- Image source links and `docs/image-credits.json`
+This release fixes Wuzhen and Hongcun images that failed to appear on
+GitHub Pages.
 
-Images load from Wikimedia Commons and link to their source/license pages.
-The site keeps only the original 10-day route.
+## Cause
+The previous version used Wikimedia Commons `Special:FilePath` redirect
+URLs. Those redirects did not load reliably from the published site.
+
+## Fix
+All Wikimedia image references now use direct `upload.wikimedia.org`
+thumbnail URLs. This includes:
+- Homepage visual cards
+- Wuzhen chapter hero and gallery
+- Hongcun chapter hero and gallery
+- Hangzhou and Huangshan visual galleries
+- Food Atlas photographed cards
+
+## Verification
+See `docs/verification-visual-fix.json`.
+
+After pushing, use Ctrl + F5 to bypass the browser cache.

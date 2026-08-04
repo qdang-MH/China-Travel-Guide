@@ -1,0 +1,16 @@
+{
+  "html_files_updated": 7,
+  "redirect_urls_replaced": 83,
+  "homepage_wuzhen_direct_url_present": true,
+  "homepage_hongcun_direct_url_present": true,
+  "remaining_special_filepath_urls": 0,
+  "changed_files": {
+    "index.html": 10,
+    "docs/food-atlas.html": 8,
+    "destinations/hangzhou.html": 13,
+    "destinations/huangshan.html": 14,
+    "destinations/shanghai.html": 10,
+    "destinations/hongcun.html": 14,
+    "destinations/wuzhen.html": 14
+  }
+}
