@@ -197,8 +197,3 @@ h2{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin:.2em 0}
   .visual-story-card.feature{grid-column:auto;min-height:340px}
   .visual-gallery-item img{height:270px}
 }
-
-/* PROFESSIONAL HERO PHOTOGRAPHY */
-.professional-photo-credit{padding:9px 0;background:#efe6d7;border-bottom:1px solid var(--line);font-size:.74rem;color:var(--muted)}
-.professional-photo-credit a{color:var(--rust);font-weight:bold}
-.chapter-hero,.hero{background-size:cover,cover;background-position:center,center}
