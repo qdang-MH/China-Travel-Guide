@@ -1,0 +1,23 @@
+{
+  "edition": "Version 12",
+  "html_pages": 8,
+  "local_photo_files": 5,
+  "image_references": 15,
+  "external_image_references": [],
+  "missing_local_images": [],
+  "destinations": [
+    "shanghai",
+    "hangzhou",
+    "wuzhen",
+    "huangshan",
+    "hongcun"
+  ],
+  "days": 10,
+  "checksums": {
+    "hangzhou-autumn.jpg": "2fe6f4ef1e33f804916bb09e710638925338a4c4c86902ea5d379c0a7a4a71e2",
+    "wuzhen-night.jpg": "700c3d036b1090828aade5d87d668387dbeebfb26a3ba35eefdb79f8857fb5c4",
+    "huangshan-sunrise.jpg": "afcf91504c43dff2d718928d4b9028f66546828e914691f519d92d632fb14586",
+    "huangshan-landscape.jpg": "95b0aef3ee28365da71010c5e798ea32a73882ed27bc26a798351650a95ebf78",
+    "hongcun-village.jpg": "a98e527057a5c91c1c7e92d2af7899a59e60c4f358fe6aa83728d8b17c4fd746"
+  }
+}

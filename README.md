@@ -1,24 +1,23 @@
-# China in Autumn — Version 11 Premium Foundation
+# China in Autumn — Version 12
 
-Built from the complete stable Edition 1 Milestone 2 package.
+Version 12 was built from an empty folder.
 
-## Real local photographs added
-- Hangzhou autumn
-- Wuzhen at night
-- Huangshan sunrise
-- Huangshan landscape
-- Hongcun village
+## Scope
+- Shanghai
+- Hangzhou
+- Wuzhen
+- Huangshan
+- Hongcun
+- 10 days total
 
-All five photographs are stored under:
-`assets/images/professional/`
+## Image rule
+Every displayed photograph is a local file stored under:
+`assets/images/destinations/`
 
-## Curated companion links added
-- Shanghai Trip.com must-visit restaurants
-- Hangzhou Trip.com must-visit restaurants
-- Huangshan Scenic Area premium hotels
+There are no external image URLs.
 
-## Reliability
-No new professional photograph is hotlinked.
-Every professional image path was verified.
+Shanghai intentionally uses a designed text hero because no local Shanghai
+photograph has been supplied yet. This avoids fake or broken imagery.
 
-See `docs/verification-v11.json`.
+## Verification
+See `verification.json`.
