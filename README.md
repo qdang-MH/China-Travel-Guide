@@ -1,19 +1,24 @@
-# China in Autumn — Edition 1 Local Images
+# China in Autumn — Version 11 Premium Foundation
 
-This release removes every external image dependency.
+Built from the complete stable Edition 1 Milestone 2 package.
 
-All destination, gallery, hero, and Food Atlas images are stored inside:
-`assets/images/local/`
+## Real local photographs added
+- Hangzhou autumn
+- Wuzhen at night
+- Huangshan sunrise
+- Huangshan landscape
+- Hongcun village
 
-Why:
-- Wikimedia redirect URLs failed.
-- Direct Wikimedia URLs also failed on the published GitHub Pages site.
-- Local files are the only reliable option.
+All five photographs are stored under:
+`assets/images/professional/`
 
-Verification:
-- Zero external `<img>` references
-- Every local image path checked
-- See `docs/verification-local-images.json`
+## Curated companion links added
+- Shanghai Trip.com must-visit restaurants
+- Hangzhou Trip.com must-visit restaurants
+- Huangshan Scenic Area premium hotels
 
-After installing, delete the old site files first, copy this complete
-package, commit, push, wait for GitHub Pages to rebuild, then use Ctrl+F5.
+## Reliability
+No new professional photograph is hotlinked.
+Every professional image path was verified.
+
+See `docs/verification-v11.json`.
