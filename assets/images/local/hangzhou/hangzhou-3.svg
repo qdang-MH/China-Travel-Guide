@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+  <linearGradient id="sky-hangzhou-3" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#607e87"/><stop offset="1" stop-color="#d9b56f"/>
+  </linearGradient>
+  <linearGradient id="overlay-hangzhou-3" x1="0" y1="0" x2="0" y2="1">
+    <stop offset=".42" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".72"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky-hangzhou-3)"/>
+<circle cx="1260" cy="170" r="115" fill="#ffe8ad" opacity=".88"/>
+<path d="M0 720 Q300 520 600 700 T1200 680 T1600 660 V1000 H0Z" fill="#38534d" opacity=".76"/><path d="M100 520 Q800 440 1500 520" fill="none" stroke="#355f3d" stroke-width="32"/><path d="M100 585 Q800 505 1500 585" fill="none" stroke="#355f3d" stroke-width="32"/><path d="M100 650 Q800 570 1500 650" fill="none" stroke="#355f3d" stroke-width="32"/><path d="M100 715 Q800 635 1500 715" fill="none" stroke="#355f3d" stroke-width="32"/><path d="M100 780 Q800 700 1500 780" fill="none" stroke="#355f3d" stroke-width="32"/><circle cx="80" cy="670" r="65" fill="#d0a228" opacity=".9"/><circle cx="220" cy="632" r="81" fill="#c84d2f" opacity=".9"/><circle cx="380" cy="594" r="65" fill="#d0a228" opacity=".9"/><circle cx="1220" cy="670" r="81" fill="#c84d2f" opacity=".9"/><circle cx="1390" cy="632" r="65" fill="#d0a228" opacity=".9"/><circle cx="1530" cy="594" r="81" fill="#c84d2f" opacity=".9"/>
+<rect width="1600" height="1000" fill="url(#overlay-hangzhou-3)"/>
+<text x="75" y="825" fill="#fff" font-family="Georgia,serif" font-size="70">Longjing Tea Hills</text>
+<text x="80" y="884" fill="#ffe2aa" font-family="Arial,sans-serif" font-size="27">Tea terraces in late-autumn light</text>
+</svg>
