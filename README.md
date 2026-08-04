@@ -1,19 +1,9 @@
-# China in Autumn — Edition 1 Local Images
+# China in Autumn — Edition 1 Professional Heroes
 
-This release removes every external image dependency.
+This release replaces the four most important illustrated visuals with verified high-resolution photographs:
+- Hangzhou — Autumn Moon over the Calm Lake
+- Wuzhen — illuminated canal at night
+- Huangshan — sunrise from Beihai
+- Hongcun — Moon Pond
 
-All destination, gallery, hero, and Food Atlas images are stored inside:
-`assets/images/local/`
-
-Why:
-- Wikimedia redirect URLs failed.
-- Direct Wikimedia URLs also failed on the published GitHub Pages site.
-- Local files are the only reliable option.
-
-Verification:
-- Zero external `<img>` references
-- Every local image path checked
-- See `docs/verification-local-images.json`
-
-After installing, delete the old site files first, copy this complete
-package, commit, push, wait for GitHub Pages to rebuild, then use Ctrl+F5.
+Each professional photograph uses its exact Wikimedia image URL and has a local SVG fallback. Source and license details are recorded in `docs/professional-photo-credits.json`.

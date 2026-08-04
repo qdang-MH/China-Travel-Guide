@@ -1,0 +1,30 @@
+{
+  "edition": "Edition 1 Professional Heroes",
+  "photos": {
+    "hangzhou": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E8%A5%BF%E6%B9%96%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88.JPG",
+      "fallback": "../assets/images/local/hangzhou/hangzhou-1.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%B9%96%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88.JPG",
+      "credit": "Jeff chenqinyi \u00b7 CC BY-SA 3.0"
+    },
+    "wuzhen": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Wuzhen_by_night_1.jpg",
+      "fallback": "../assets/images/local/wuzhen/wuzhen-1.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wuzhen_by_night_1.jpg",
+      "credit": "Nico le terrible \u00b7 CC0"
+    },
+    "huangshan": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/HuangshanSunrise.JPG",
+      "fallback": "../assets/images/local/huangshan/huangshan-1.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:HuangshanSunrise.JPG",
+      "credit": "Bgwwlm \u00b7 CC BY-SA 3.0"
+    },
+    "hongcun": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Moon_Pond%2C_Hongcun.jpg",
+      "fallback": "../assets/images/local/hongcun/hongcun-1.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Moon_Pond,_Hongcun.jpg",
+      "credit": "EditQ \u00b7 CC BY-SA 4.0"
+    }
+  },
+  "strategy": "verified remote photograph with local fallback"
+}
