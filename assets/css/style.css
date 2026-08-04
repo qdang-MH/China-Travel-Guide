@@ -163,3 +163,37 @@ h2{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin:.2em 0}
 .print-day-card h2,.print-day-card h3{margin:.2em 0}.print-day-card aside{padding:16px;border-radius:14px;background:#fff5df}
 @media(max-width:720px){.print-day-grid{grid-template-columns:1fr}.print-day-card{grid-template-columns:1fr}}
 @media print{.site-header,.footer,.menu-toggle{display:none!important}.print-day-grid{grid-template-columns:1fr}.print-day-card{break-inside:avoid;box-shadow:none}}
+
+/* =========================================================
+   EDITION 1 VISUAL MILESTONE
+   ========================================================= */
+.visual-story-section{background:#f0e2cc}
+.visual-story-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}
+.visual-story-card{position:relative;min-height:330px;overflow:hidden;border-radius:20px;box-shadow:var(--shadow);text-decoration:none;background:#222}
+.visual-story-card.feature{grid-column:span 2;min-height:460px}
+.visual-story-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.visual-story-card:hover img{transform:scale(1.035)}
+.visual-story-card::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(12,12,10,.78),transparent 65%)}
+.visual-story-card div{position:absolute;z-index:2;left:24px;right:24px;bottom:22px;color:white}
+.visual-story-card strong,.visual-story-card span{display:block}
+.visual-story-card strong{font-family:Georgia,serif;font-size:1.8rem}
+.visual-story-card span{color:#f5d9a4}
+.visual-gallery-section{background:#1f2d29;color:white}
+.visual-gallery-section h2{color:#fff}
+.visual-gallery-section .lead{color:#d7ded9}
+.visual-gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}
+.visual-gallery-item{margin:0;overflow:hidden;border-radius:17px;background:#fff;color:var(--forest)}
+.visual-gallery-item img{display:block;width:100%;height:340px;object-fit:cover}
+.visual-gallery-item figcaption{padding:13px 16px;font-family:Georgia,serif;font-size:1.05rem}
+.photo-food-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}
+.photo-food-card{overflow:hidden;border:1px solid var(--line);border-radius:16px;background:white;box-shadow:var(--shadow)}
+.photo-food-card img{display:block;width:100%;height:220px;object-fit:cover}
+.photo-food-card>div{padding:17px}
+.photo-food-card h3{margin:.15em 0}
+.photo-food-card strong{color:var(--rust)}
+@media(max-width:900px){.photo-food-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:680px){
+  .visual-story-grid,.visual-gallery-grid,.photo-food-grid{grid-template-columns:1fr}
+  .visual-story-card.feature{grid-column:auto;min-height:340px}
+  .visual-gallery-item img{height:270px}
+}

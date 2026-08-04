@@ -1,17 +1,14 @@
-# China in Autumn — Edition 1 Milestone 2
-
-Built on the clean Edition 1 framework.
+# China in Autumn — Edition 1 Visual Milestone
 
 Added:
-- Expanded seven-item navigation
-- Homepage journey map
-- Before You Go guide
-- Transportation guide
-- Printable daily cards
-- Trip tools section
-- Existing Food Atlas, Hotels, detailed destination chapters, and Companion Mode retained
+- Real Huangshan sunrise homepage hero
+- Large visual homepage story cards
+- New Hangzhou West Lake hero and gallery
+- Expanded Wuzhen night and canal gallery
+- Expanded Huangshan sunrise and sea-of-clouds gallery
+- Expanded Hongcun Moon Pond and village gallery
+- Photographed Food Atlas highlights
+- Image source links and `docs/image-credits.json`
 
-Original route only:
-Shanghai → Hangzhou → Wuzhen → Huangshan → Hongcun → Shanghai
-
-No legacy Version 8/9 destinations or pages are included.
+Images load from Wikimedia Commons and link to their source/license pages.
+The site keeps only the original 10-day route.

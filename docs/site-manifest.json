@@ -1,25 +1,8 @@
 {
-  "edition": "China in Autumn Edition 1 Milestone 2",
-  "route": [
-    "Shanghai",
-    "Hangzhou",
-    "Wuzhen",
-    "Huangshan",
-    "Hongcun",
-    "Shanghai"
-  ],
-  "new_pages": [
-    "docs/before-you-go.html",
-    "docs/transportation.html",
-    "trips/trip1/printable.html"
-  ],
-  "features": [
-    "expanded navigation",
-    "journey map",
-    "before-you-go guide",
-    "transport guide",
-    "printable daily cards",
-    "existing search and companion checklist"
-  ],
+  "edition": "China in Autumn Edition 1 Visual Milestone",
+  "destination_gallery_images": 15,
+  "food_photos": 8,
+  "homepage_visual_cards": 4,
+  "image_credits": "docs/image-credits.json",
   "legacy_pages": 0
 }
