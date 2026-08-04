@@ -1,5 +1,5 @@
 {
-  "edition": "China in Autumn Edition 1 Framework",
+  "edition": "China in Autumn Edition 1 Milestone 2",
   "route": [
     "Shanghai",
     "Hangzhou",
@@ -9,16 +9,17 @@
     "Shanghai"
   ],
   "new_pages": [
-    "docs/food-atlas.html",
-    "docs/hotels.html",
-    "trips/trip1/companion.html"
+    "docs/before-you-go.html",
+    "docs/transportation.html",
+    "trips/trip1/printable.html"
   ],
   "features": [
-    "simplified navigation",
-    "mobile menu",
-    "search",
-    "travel checklist",
-    "local progress storage"
+    "expanded navigation",
+    "journey map",
+    "before-you-go guide",
+    "transport guide",
+    "printable daily cards",
+    "existing search and companion checklist"
   ],
   "legacy_pages": 0
 }
